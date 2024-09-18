@@ -1,0 +1,32 @@
+body{
+    background: url(snakeimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    width: 700px;
+    margin-top: 30px;
+    border: 5px solid;
+}
+#scoreText{
+    font-family: 'Permanent Marker',cursive;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: 'Permanent Marker',cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
